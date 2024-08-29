@@ -15,7 +15,6 @@ const app = express();
 
 app.use(cors());  //middleware for cross origin reqs
 app.use(express.json());  //middleware to parse json
-app.use(bodyParser.json());
 
 //connect to DB
 mongoose.connect(process.env.MONGO_URI)
