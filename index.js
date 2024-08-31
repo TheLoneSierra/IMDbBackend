@@ -13,8 +13,8 @@ const app = express();
 
 // Use CORS middleware
 app.use(cors({
-    origin: ['https://imdb-frontend-kappa.vercel.app'],
-    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS',
+    origin: ['https://imdb-frontend-kappa.vercel.app/'],
+    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS', // Include OPTIONS
     credentials: true
 }));
 
