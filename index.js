@@ -12,11 +12,7 @@ const exploringRouter = require('./src/routes/exploringRouter');
 const app = express();
 
 // Use CORS middleware
-app.use(cors({
-    origin: ['https://imdb-frontend-kappa.vercel.app/'],
-    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS', // Include OPTIONS
-    credentials: true
-}));
+app.use(cors());
 
 // Middleware to parse JSON
 app.use(express.json()); 
