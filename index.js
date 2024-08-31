@@ -12,13 +12,13 @@ const exploringRouter = require('./src/routes/exploringRouter');
 const app = express();
 
 // Use CORS middleware
-app.use(cors());
+app.use(cors({
+    origin: 'https://imdb-frontend-rosy.vercel.app',
+    credentials: true
+}));
 
 // Middleware to parse JSON
 app.use(express.json()); 
-
-// Preflight request handling for all routes
-app.options('*', cors());
 
 // Connect to MongoDB
 mongoose.connect(process.env.MONGO_URI)
