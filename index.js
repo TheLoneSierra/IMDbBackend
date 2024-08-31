@@ -13,8 +13,8 @@ const app = express();
 
 // Use CORS middleware
 app.use(cors({
-    origin: ['http://localhost:5173'], // Add your frontend's local URL here
-    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS', // Include OPTIONS
+    origin: ['https://imdb-frontend-kappa.vercel.app/'],
+    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS',
     credentials: true
 }));
 
