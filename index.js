@@ -13,7 +13,11 @@ const exploringRouter = require('./src/routes/exploringRouter')
 const app = express();
 
 
-app.use(cors());  //middleware for cross origin reqs
+app.use(cors({
+    origin: ['http://localhost:5173'],
+    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+    credentials: true
+  }));  //middleware for cross origin reqs
 app.use(express.json());  //middleware to parse json
 
 //connect to DB
