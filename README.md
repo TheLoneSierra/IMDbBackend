@@ -12,13 +12,13 @@ This is the backend part of the IMDb project, built with Node.js, Express and Mo
 - [Contributing](#contributing)
 
 Technologies Used
-Node.js: JavaScript runtime environment for building server-side applications.
-Express.js: A minimal and flexible Node.js web application framework.
-MongoDB: A NoSQL database for storing data in a flexible, JSON-like format.
-Mongoose: A library for MongoDB and Node.js.
-Joi: Validation library for request validation.
-bcrypt: Library for hashing passwords securely.
-CORS: Middleware for handling Cross-Origin Resource Sharing.
+- Node.js: JavaScript runtime environment for building server-side applications.
+- Express.js: A minimal and flexible Node.js web application framework.
+- MongoDB: A NoSQL database for storing data in a flexible, JSON-like format.
+- Mongoose: A library for MongoDB and Node.js.
+- Joi: Validation library for request validation.
+- bcrypt: Library for hashing passwords securely.
+- CORS: Middleware for handling Cross-Origin Resource Sharing.
 
 Features
 User Authentication: Registration and login with secure password hashing using bcrypt.
