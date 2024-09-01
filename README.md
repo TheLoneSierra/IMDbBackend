@@ -32,14 +32,14 @@ This is the backend part of the IMDb project, built with Node.js, Express and Mo
 Here are some of the key API endpoints:
 
 - User Authentication
-POST /auth/signup: Register a new user.
-POST /auth/login: Login and obtain a token.
+-POST /auth/signup: Register a new user.
+- POST /auth/login: Login and obtain a token.
 
 - API Management
-GET /api/born-today: Get a list of celebrities born today.
-GET /api/exploring: Get a list of movies and tv shows to explore.
-GET /api/top-ten: Get top 10 on IMDb.
-GET /api/popular-genres: Get popular genres.
+- GET /api/born-today: Get a list of celebrities born today.
+- GET /api/exploring: Get a list of movies and tv shows to explore.
+- GET /api/top-ten: Get top 10 on IMDb.
+- GET /api/popular-genres: Get popular genres.
 
 ## Data Models
 - User Model (userModel.js): Schema for user registration and login, including fields for name, email and password.
