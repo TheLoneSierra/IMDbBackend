@@ -32,7 +32,7 @@ This is the backend part of the IMDb project, built with Node.js, Express and Mo
 Here are some of the key API endpoints:
 
 - User Authentication
--POST /auth/signup: Register a new user.
+- POST /auth/signup: Register a new user.
 - POST /auth/login: Login and obtain a token.
 
 - API Management
@@ -52,7 +52,8 @@ Here are some of the key API endpoints:
 Validation Middleware (validation.js): Uses Joi to validate incoming requests.
 
 ## Deployment Link
-- https://imdb-backend-two.vercel.app/
+- Backend: https://imdb-backend-two.vercel.app/
+- Frontend: https://im-db-frontend.vercel.app/
 
 ## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request for review.
