@@ -9,7 +9,7 @@ This is the backend part of the IMDb project, built with Node.js, Express and Mo
 - [API Endpoints](#api-endpoints)
 - [Data Models](#data-models)
 - [Middleware](#middleware)
-- [DEPLOYMENT LINK](#deployment-link)
+- [Deployment Link](#deployment-link)
 - [Contributing](#contributing)
 
 ## Technologies Used
