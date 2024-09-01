@@ -12,7 +12,10 @@ const exploringRouter = require('./src/routes/exploringRouter');
 const app = express();
 
 // Use CORS middleware
-app.use(cors());
+app.use(cors({
+    origin: 'https://im-db-frontend.vercel.app',
+    credentials: true,
+}));
 
 // Middleware to parse JSON
 app.use(express.json()); 
