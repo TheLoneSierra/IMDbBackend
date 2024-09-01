@@ -21,31 +21,31 @@ Technologies Used
 - CORS: Middleware for handling Cross-Origin Resource Sharing.
 
 Features
-User Authentication: Registration and login with secure password hashing using bcrypt.
-Data Validation: Request validation using Joi for input data integrity.
-API Endpoints: Provides RESTful API endpoints for handling users, movies, genres and more.
-Data Management: Export and import data from JSON files to MongoDB.
-Models and Schemas: Defined Mongoose models and schemas for structured data representation.
+- User Authentication: Registration and login with secure password hashing using bcrypt.
+- Data Validation: Request validation using Joi for input data integrity.
+- API Endpoints: Provides RESTful API endpoints for handling users, movies, genres and more.
+- Data Management: Export and import data from JSON files to MongoDB.
+- Models and Schemas: Defined Mongoose models and schemas for structured data representation.
 
 API Endpoints
 Here are some of the key API endpoints:
 
-User Authentication
+- User Authentication
 POST /auth/signup: Register a new user.
 POST /auth/login: Login and obtain a token.
 
-API Management
+- API Management
 GET /api/born-today: Get a list of celebrities born today.
 GET /api/exploring: Get a list of movies and tv shows to explore.
 GET /api/top-ten: Get top 10 on IMDb.
 GET /api/popular-genres: Get popular genres.
 
 Data Models
-User Model (userModel.js): Schema for user registration and login, including fields for name, email and password.
-Celebrity Model (celebrityModel.js): Schema for storing celebrity data.
-Genre Model (genreModel.js): Schema for storing genre information.
-Exploring Model: Schema for exploring tv shows and movies information.
-Top Ten: Schema for displaying the top 10 on IMDB.
+- User Model (userModel.js): Schema for user registration and login, including fields for name, email and password.
+- Celebrity Model (celebrityModel.js): Schema for storing celebrity data.
+- Genre Model (genreModel.js): Schema for storing genre information.
+- Exploring Model: Schema for exploring tv shows and movies information.
+- Top Ten: Schema for displaying the top 10 on IMDB.
 
 Middleware
 Validation Middleware (validation.js): Uses Joi to validate incoming requests.
