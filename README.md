@@ -9,6 +9,7 @@ This is the backend part of the IMDb project, built with Node.js, Express and Mo
 - [API Endpoints](#api-endpoints)
 - [Data Models](#data-models)
 - [Middleware](#middleware)
+- [DEPLOYMENT LINK](#deployment-link)
 - [Contributing](#contributing)
 
 ## Technologies Used
@@ -49,6 +50,9 @@ GET /api/popular-genres: Get popular genres.
 
 ## Middleware
 Validation Middleware (validation.js): Uses Joi to validate incoming requests.
+
+## Deployment Link
+- https://imdb-backend-two.vercel.app/
 
 ## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request for review.
